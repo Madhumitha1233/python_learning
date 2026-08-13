@@ -71,3 +71,5 @@ print("Name :",name)
 import keyword
 print(keyword.kwlist)
 print(len(keyword.kwlist))
+
+# Day 01 - Python basics

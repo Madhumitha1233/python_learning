@@ -70,3 +70,5 @@ print("list to set :",M)
 
 N=list(R1) #range to list
 print("range to list :" ,N)
+
+# Day 02 - Datatypes

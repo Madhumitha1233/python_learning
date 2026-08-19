@@ -96,7 +96,8 @@ d={}
 d.update({'a':1,'b':2})   
 print(d)
 #extend dict with another list
-d.update([[1,'a'],[2,'b']]) #actual list is error ,but it accepts only key,valye pairs
+# d.update([1,2])
+d.update([[1,'a'],[2,'b']]) #actual list is error ,it accepts only key,valye pairs
 print(d)
 #extend dict with another tuple
 d.update(((1,'a'),(2,'b')))

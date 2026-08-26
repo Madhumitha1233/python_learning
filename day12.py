@@ -120,9 +120,10 @@ if sum==n:
     print("Armstrong number")
 else:
     print("Not an Armstrong number")
-print('\n')
+print()
 
 #13.palindrome string without slicing,without built in functions
+#method 1
 rev=''
 str=input('enter a string : ')
 for x in range(len(str)-1,-1,-1):
@@ -131,4 +132,23 @@ if str==rev:
     print('palindrome')
 else:
     print('Not palindrome')
-print('\n')
+print()
+
+#method 2 palindrome string (pointers)
+s=input("enter a string to check palindrome: ")
+i,j=0,len(s)-1
+while i<j:
+    if s[i]!=s[j]:
+        print("Not a palindrome")
+        break
+    i+=1
+    j-=1
+else:
+    print("Palindrome")
+
+#method 3 palindrome (slicing)
+s=input("enter a string to check palindrome: ")
+if s==s[::-1]:
+    print("palindrome")
+else:
+    print("not a palindrome")

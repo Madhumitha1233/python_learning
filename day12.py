@@ -152,3 +152,19 @@ if s==s[::-1]:
     print("palindrome")
 else:
     print("not a palindrome")
+
+#removing duplicates from list
+l=[1,2,3,2,1,4,5,3,4,6,7,6,5]
+ul=[]
+for i in l:
+    if i not in ul:
+        ul.append(i)
+print(ul)
+
+#removing duplicates from string
+s='maaduhummaddhuhuhu'
+us=[]
+for i in s:
+    if i not in us:
+        us+=i
+print(us)

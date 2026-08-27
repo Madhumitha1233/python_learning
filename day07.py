@@ -9,8 +9,6 @@ Write Output:A
 Outside
 
 '''
-a='''a
-outside'''
 #TASK 2:
 n = 10
 if n % 10 == 0:
